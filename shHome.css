@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+input::placeholder {
+    font-size: 10px; /* Adjust the size as needed */
+    font-style: oblique;
+}
+  
+header {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    background-color: #800080; /* Purple background color */
+    padding: 10px;
+    border-radius: 2px 2px 2px 2px;
+  }
+  
+
+  .title {
+    font-size: 15px;
+    color: white; /* White text color */
+    font-style:oblique;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+  }
+
+  .logo {
+    margin-left:5px; /* Adds some space between the image and the text */
+  }
+
+  
+.search-container {
+display:flex;
+border: 2px solid aquamarine;
+border-radius: 5px;
+ 
+
+}
+
+.dropdown{
+  position:relative;
+  
+ }
+
+.dropdown select {
+  
+     border: none;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    overflow: visible;
+    outline: invert;}
+
+    select{
+      height: 22px;
+      width:35px;
+      max-width:auto;
+      ;
+    }
+
+    input
+    {
+      width:120px;
+    }
+    
+    
